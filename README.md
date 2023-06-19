@@ -10,36 +10,56 @@ Implementation of standard functions that an application should have.
 
 * Versionierung
 
-* Obfuscation
+## Obfuscation
 
-* Lizenz
+## Lizenz
 
-* UnhandledException
+## UnhandledException
 
-* Absturz-Neustart-Shutdown Behandlung
+## Absturz-Neustart-Shutdown Behandlung
 
-* User
+## User
 
-* Vollbildmodus
+## Vollbildmodus
 
-* Datenhandling
-  * Backup
-  * Restore
-  * Import
-  * Export
-  * reparieren, komprimieren
-  * Datenversionierung
+## Datenhandling
 
-* Logging
-  * Infos
-  * Warnings
-  * Errors
-  * Exceptions
-  * System-Events
+* Backup
+* Restore
+* Import
+* Export
+* reparieren, komprimieren
+* Datenversionierung
 
-* Fehler-Report
-  * speichern
-  * senden als Email
+## Logging
 
-* Übersetzung (Translation)
-  * LanguageHandling
+* Infos
+* Warnings
+* Errors
+* Exceptions
+* System-Events
+
+## Fehler-Report
+
+* speichern
+* senden als Email
+
+## Übersetzung (Translation)
+
+* LanguageHandling (SPrachauswahl)
+* Hilfesystem (Help)
+* Sprachen anlegen, verwenden
+
+## Instanzen
+
+  Was passiert, wenn das Programm noch einmal geöffnet wird.
+
+* mehrfacher Start möglich
+* aktuelle Instanz wird geöffnet
+* Fehlermeldung
+
+## TryIcon-Verhalten
+
+## Meldungen im Notification-Fenster
+
+## Setup
