@@ -6,23 +6,39 @@ Implementation of standard functions that an application should have.
 
 ## Liste der Application Feature
 
-* Applikations-Icon
+### Allgemeines
 
+* Applikations-Icon
 * Versionierung
 
-## Obfuscation
+### Verzeichnisse
 
-## Lizenz
+* Daten-Verzeichnis
+* Programm Verzeichnis / Installationsverzeichnis
+* Temp Verzeichnis
+* DB Verzeichnis
+* AppData
+* Reporte Verzeichnis
 
-## UnhandledException
+### Obfuscation
 
-## Absturz-Neustart-Shutdown Behandlung
+### Lizenz
 
-## User
+### Einstellungen
 
-## Vollbildmodus
+* Registry
+* Config-Datei
+* Settings-Datei
 
-## Datenhandling
+### UnhandledException
+
+### Absturz-Neustart-Shutdown Behandlung
+
+### User
+
+### Vollbildmodus
+
+### Datenhandling
 
 * Backup
 * Restore
@@ -31,7 +47,14 @@ Implementation of standard functions that an application should have.
 * reparieren, komprimieren
 * Datenversionierung
 
-## Logging
+### Datenspeicherung
+
+* DB PostgreSQL, MSSql, MySQL, SqLight
+* XML Daten
+* CSV Daten
+* Zip von Dateien
+
+### Logging
 
 * Infos
 * Warnings
@@ -39,18 +62,36 @@ Implementation of standard functions that an application should have.
 * Exceptions
 * System-Events
 
-## Fehler-Report
+### Fehler-Report
 
 * speichern
 * senden als Email
 
-## Übersetzung (Translation)
+### Übersetzung (Translation)
 
 * LanguageHandling (SPrachauswahl)
 * Hilfesystem (Help)
 * Sprachen anlegen, verwenden
 
-## Instanzen
+### Programminterne Abläufe
+
+* Handling von Background Prozessen
+* Message Handling
+
+### Reporterstellung
+
+* PDF Datei
+* Word Datei
+* Excel Datei
+* Text Datei
+* MD Datei (Markdown)
+
+### Scripting
+
+* PowerShell ausführen
+* LUA verwenden
+
+### Instanzen
 
   Was passiert, wenn das Programm noch einmal geöffnet wird.
 
@@ -58,8 +99,12 @@ Implementation of standard functions that an application should have.
 * aktuelle Instanz wird geöffnet
 * Fehlermeldung
 
-## TryIcon-Verhalten
+### Windows interaktionen
 
-## Meldungen im Notification-Fenster
+* Anzeige in der Taskleiste, TryIcon-Verhalten
+* Logout, Shutdown, Restart Interaktion
+* Einträge in System Events von Windows
 
-## Setup
+### Meldungen im Notification-Fenster
+
+### Setup
